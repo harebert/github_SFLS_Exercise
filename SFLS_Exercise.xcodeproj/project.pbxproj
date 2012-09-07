@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8531E6DA152BE4A600DF5DD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8531E6D9152BE4A600DF5DD3 /* QuartzCore.framework */; };
+		8580AE8515283EF900825307 /* viewErrorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8580AE8315283EF900825307 /* viewErrorList.m */; };
+		8580AE8615283EF900825307 /* viewErrorList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8580AE8415283EF900825307 /* viewErrorList.xib */; };
+		859E29FD14DD34DB004027DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E29FC14DD34DB004027DE /* UIKit.framework */; };
+		859E29FF14DD34DB004027DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E29FE14DD34DB004027DE /* Foundation.framework */; };
+		859E2A0114DD34DB004027DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E2A0014DD34DB004027DE /* CoreGraphics.framework */; };
+		859E2A0714DD34DB004027DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 859E2A0514DD34DB004027DE /* InfoPlist.strings */; };
+		859E2A0914DD34DB004027DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E2A0814DD34DB004027DE /* main.m */; };
+		859E2A0D14DD34DB004027DE /* SFLS_ExerciseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E2A0C14DD34DB004027DE /* SFLS_ExerciseAppDelegate.m */; };
+		859E2A1014DD34DB004027DE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859E2A0E14DD34DB004027DE /* MainWindow.xib */; };
+		859E2A1314DD34DB004027DE /* SFLS_ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E2A1214DD34DB004027DE /* SFLS_ExerciseViewController.m */; };
+		859E2A1614DD34DB004027DE /* SFLS_ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859E2A1414DD34DB004027DE /* SFLS_ExerciseViewController.xib */; };
+		859E2A1E14DD34DB004027DE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E2A1D14DD34DB004027DE /* SenTestingKit.framework */; };
+		859E2A1F14DD34DB004027DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E29FC14DD34DB004027DE /* UIKit.framework */; };
+		859E2A2014DD34DB004027DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E29FE14DD34DB004027DE /* Foundation.framework */; };
+		859E2A2114DD34DB004027DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E2A0014DD34DB004027DE /* CoreGraphics.framework */; };
+		859E2A2914DD34DB004027DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 859E2A2714DD34DB004027DE /* InfoPlist.strings */; };
+		859E2A2B14DD34DB004027DE /* SFLS_ExerciseTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 859E2A2A14DD34DB004027DE /* SFLS_ExerciseTests.h */; };
+		859E2A2D14DD34DB004027DE /* SFLS_ExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E2A2C14DD34DB004027DE /* SFLS_ExerciseTests.m */; };
+		859E2A4014DD3525004027DE /* XMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E2A3D14DD3525004027DE /* XMLDocument.m */; };
+		859E2A4114DD3525004027DE /* XMLelement.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E2A3F14DD3525004027DE /* XMLelement.m */; };
+		85B0FFCE14DD8BF200B1D78B /* examIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B0FFCC14DD8BF200B1D78B /* examIndex.m */; };
+		85B0FFCF14DD8BF200B1D78B /* examIndex.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B0FFCD14DD8BF200B1D78B /* examIndex.xib */; };
+		85B95033153D16E70030B8BD /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B9502F153D16E70030B8BD /* launchimage.png */; };
+		85B95034153D16E70030B8BD /* logo@72.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B95030153D16E70030B8BD /* logo@72.png */; };
+		85B95035153D16E70030B8BD /* logo@144.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B95031153D16E70030B8BD /* logo@144.png */; };
+		85B95036153D16E70030B8BD /* logo@512.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B95032153D16E70030B8BD /* logo@512.png */; };
+		85B9503A153D173C0030B8BD /* logo@57.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B95038153D173C0030B8BD /* logo@57.png */; };
+		85B9503B153D173C0030B8BD /* logo@114.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B95039153D173C0030B8BD /* logo@114.png */; };
+		85B9503D153D174A0030B8BD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B9503C153D174A0030B8BD /* Default.png */; };
+		85B95040153D17910030B8BD /* launchimage@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B9503E153D17910030B8BD /* launchimage@1x.png */; };
+		85B95041153D17910030B8BD /* launchimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B9503F153D17910030B8BD /* launchimage@2x.png */; };
+		85B95043153D179D0030B8BD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B95042153D179D0030B8BD /* Default@2x.png */; };
+		85B95045153D18430030B8BD /* questionListBAK@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B95044153D18430030B8BD /* questionListBAK@1x.png */; };
+		85B9504C153D2B8E0030B8BD /* loginbak@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B9504A153D2B8E0030B8BD /* loginbak@1x.png */; };
+		85B9504D153D2B8E0030B8BD /* loginbak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B9504B153D2B8E0030B8BD /* loginbak@2x.png */; };
+		85B9505015404F1B0030B8BD /* inputbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B9504E15404F1B0030B8BD /* inputbox.png */; };
+		85B9505115404F1B0030B8BD /* submitbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B9504F15404F1B0030B8BD /* submitbutton.png */; };
+		85B9505315404FED0030B8BD /* wrongbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B9505215404FED0030B8BD /* wrongbutton.png */; };
+		85CB638914DD975500BEF736 /* selQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CB638814DD975500BEF736 /* selQuestion.m */; };
+		85CB639014DE9CA300BEF736 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CB638F14DE9CA300BEF736 /* libsqlite3.dylib */; };
+		85CCDB83152841A80014A5DF /* errorQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CCDB81152841A80014A5DF /* errorQuestion.m */; };
+		85CCDB84152841A80014A5DF /* errorQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85CCDB82152841A80014A5DF /* errorQuestion.xib */; };
+		85FAFE0314E02019007FF75E /* questionPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FAFE0114E02019007FF75E /* questionPage.m */; };
+		85FAFE0414E02019007FF75E /* questionPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FAFE0214E02019007FF75E /* questionPage.xib */; };
+		85FAFE0814E0B6A6007FF75E /* tempCLass.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FAFE0614E0B6A6007FF75E /* tempCLass.m */; };
+		85FAFE0914E0B6A6007FF75E /* tempCLass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FAFE0714E0B6A6007FF75E /* tempCLass.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		859E2A2214DD34DB004027DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 859E29EF14DD34DA004027DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 859E29F714DD34DB004027DE;
+			remoteInfo = SFLS_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8531E6D9152BE4A600DF5DD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8580AE8215283EF900825307 /* viewErrorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewErrorList.h; sourceTree = "<group>"; };
+		8580AE8315283EF900825307 /* viewErrorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewErrorList.m; sourceTree = "<group>"; };
+		8580AE8415283EF900825307 /* viewErrorList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewErrorList.xib; sourceTree = "<group>"; };
+		859E29F814DD34DB004027DE /* SFLS_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFLS_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		859E29FC14DD34DB004027DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		859E29FE14DD34DB004027DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		859E2A0014DD34DB004027DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		859E2A0414DD34DB004027DE /* SFLS_Exercise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFLS_Exercise-Info.plist"; sourceTree = "<group>"; };
+		859E2A0614DD34DB004027DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		859E2A0814DD34DB004027DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		859E2A0A14DD34DB004027DE /* SFLS_Exercise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFLS_Exercise-Prefix.pch"; sourceTree = "<group>"; };
+		859E2A0B14DD34DB004027DE /* SFLS_ExerciseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFLS_ExerciseAppDelegate.h; sourceTree = "<group>"; };
+		859E2A0C14DD34DB004027DE /* SFLS_ExerciseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFLS_ExerciseAppDelegate.m; sourceTree = "<group>"; };
+		859E2A0F14DD34DB004027DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		859E2A1114DD34DB004027DE /* SFLS_ExerciseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFLS_ExerciseViewController.h; sourceTree = "<group>"; };
+		859E2A1214DD34DB004027DE /* SFLS_ExerciseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFLS_ExerciseViewController.m; sourceTree = "<group>"; };
+		859E2A1514DD34DB004027DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SFLS_ExerciseViewController.xib; sourceTree = "<group>"; };
+		859E2A1C14DD34DB004027DE /* SFLS_ExerciseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFLS_ExerciseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		859E2A1D14DD34DB004027DE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		859E2A2614DD34DB004027DE /* SFLS_ExerciseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFLS_ExerciseTests-Info.plist"; sourceTree = "<group>"; };
+		859E2A2814DD34DB004027DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		859E2A2A14DD34DB004027DE /* SFLS_ExerciseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFLS_ExerciseTests.h; sourceTree = "<group>"; };
+		859E2A2C14DD34DB004027DE /* SFLS_ExerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFLS_ExerciseTests.m; sourceTree = "<group>"; };
+		859E2A3C14DD3525004027DE /* XMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDocument.h; sourceTree = "<group>"; };
+		859E2A3D14DD3525004027DE /* XMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDocument.m; sourceTree = "<group>"; };
+		859E2A3E14DD3525004027DE /* XMLelement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLelement.h; sourceTree = "<group>"; };
+		859E2A3F14DD3525004027DE /* XMLelement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLelement.m; sourceTree = "<group>"; };
+		85B0FFCB14DD8BF200B1D78B /* examIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = examIndex.h; sourceTree = "<group>"; };
+		85B0FFCC14DD8BF200B1D78B /* examIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = examIndex.m; sourceTree = "<group>"; };
+		85B0FFCD14DD8BF200B1D78B /* examIndex.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = examIndex.xib; sourceTree = "<group>"; };
+		85B9502F153D16E70030B8BD /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage.png; sourceTree = "<group>"; };
+		85B95030153D16E70030B8BD /* logo@72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@72.png"; sourceTree = "<group>"; };
+		85B95031153D16E70030B8BD /* logo@144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@144.png"; sourceTree = "<group>"; };
+		85B95032153D16E70030B8BD /* logo@512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@512.png"; sourceTree = "<group>"; };
+		85B95038153D173C0030B8BD /* logo@57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@57.png"; sourceTree = "<group>"; };
+		85B95039153D173C0030B8BD /* logo@114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@114.png"; sourceTree = "<group>"; };
+		85B9503C153D174A0030B8BD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		85B9503E153D17910030B8BD /* launchimage@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchimage@1x.png"; sourceTree = "<group>"; };
+		85B9503F153D17910030B8BD /* launchimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchimage@2x.png"; sourceTree = "<group>"; };
+		85B95042153D179D0030B8BD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		85B95044153D18430030B8BD /* questionListBAK@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "questionListBAK@1x.png"; sourceTree = "<group>"; };
+		85B9504A153D2B8E0030B8BD /* loginbak@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginbak@1x.png"; sourceTree = "<group>"; };
+		85B9504B153D2B8E0030B8BD /* loginbak@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginbak@2x.png"; sourceTree = "<group>"; };
+		85B9504E15404F1B0030B8BD /* inputbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputbox.png; sourceTree = "<group>"; };
+		85B9504F15404F1B0030B8BD /* submitbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitbutton.png; sourceTree = "<group>"; };
+		85B9505215404FED0030B8BD /* wrongbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrongbutton.png; sourceTree = "<group>"; };
+		85CB638714DD975500BEF736 /* selQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selQuestion.h; sourceTree = "<group>"; };
+		85CB638814DD975500BEF736 /* selQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selQuestion.m; sourceTree = "<group>"; };
+		85CB638F14DE9CA300BEF736 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		85CCDB80152841A80014A5DF /* errorQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errorQuestion.h; sourceTree = "<group>"; };
+		85CCDB81152841A80014A5DF /* errorQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = errorQuestion.m; sourceTree = "<group>"; };
+		85CCDB82152841A80014A5DF /* errorQuestion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = errorQuestion.xib; sourceTree = "<group>"; };
+		85FAFE0014E02019007FF75E /* questionPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = questionPage.h; path = ../questionPage.h; sourceTree = "<group>"; };
+		85FAFE0114E02019007FF75E /* questionPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = questionPage.m; path = ../questionPage.m; sourceTree = "<group>"; };
+		85FAFE0214E02019007FF75E /* questionPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = questionPage.xib; path = ../questionPage.xib; sourceTree = "<group>"; };
+		85FAFE0514E0B6A6007FF75E /* tempCLass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempCLass.h; sourceTree = "<group>"; };
+		85FAFE0614E0B6A6007FF75E /* tempCLass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tempCLass.m; sourceTree = "<group>"; };
+		85FAFE0714E0B6A6007FF75E /* tempCLass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tempCLass.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		859E29F514DD34DB004027DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8531E6DA152BE4A600DF5DD3 /* QuartzCore.framework in Frameworks */,
+				85CB639014DE9CA300BEF736 /* libsqlite3.dylib in Frameworks */,
+				859E29FD14DD34DB004027DE /* UIKit.framework in Frameworks */,
+				859E29FF14DD34DB004027DE /* Foundation.framework in Frameworks */,
+				859E2A0114DD34DB004027DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859E2A1814DD34DB004027DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859E2A1E14DD34DB004027DE /* SenTestingKit.framework in Frameworks */,
+				859E2A1F14DD34DB004027DE /* UIKit.framework in Frameworks */,
+				859E2A2014DD34DB004027DE /* Foundation.framework in Frameworks */,
+				859E2A2114DD34DB004027DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		859E29ED14DD34DA004027DE = {
+			isa = PBXGroup;
+			children = (
+				85B95042153D179D0030B8BD /* Default@2x.png */,
+				85B9503C153D174A0030B8BD /* Default.png */,
+				8531E6D9152BE4A600DF5DD3 /* QuartzCore.framework */,
+				8580AE8215283EF900825307 /* viewErrorList.h */,
+				8580AE8315283EF900825307 /* viewErrorList.m */,
+				8580AE8415283EF900825307 /* viewErrorList.xib */,
+				85CB638F14DE9CA300BEF736 /* libsqlite3.dylib */,
+				859E2A3C14DD3525004027DE /* XMLDocument.h */,
+				859E2A3D14DD3525004027DE /* XMLDocument.m */,
+				859E2A3E14DD3525004027DE /* XMLelement.h */,
+				859E2A3F14DD3525004027DE /* XMLelement.m */,
+				859E2A0214DD34DB004027DE /* SFLS_Exercise */,
+				859E2A2414DD34DB004027DE /* SFLS_ExerciseTests */,
+				859E29FB14DD34DB004027DE /* Frameworks */,
+				859E29F914DD34DB004027DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		859E29F914DD34DB004027DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				859E29F814DD34DB004027DE /* SFLS_Exercise.app */,
+				859E2A1C14DD34DB004027DE /* SFLS_ExerciseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		859E29FB14DD34DB004027DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				859E29FC14DD34DB004027DE /* UIKit.framework */,
+				859E29FE14DD34DB004027DE /* Foundation.framework */,
+				859E2A0014DD34DB004027DE /* CoreGraphics.framework */,
+				859E2A1D14DD34DB004027DE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		859E2A0214DD34DB004027DE /* SFLS_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				859E2A0B14DD34DB004027DE /* SFLS_ExerciseAppDelegate.h */,
+				859E2A0C14DD34DB004027DE /* SFLS_ExerciseAppDelegate.m */,
+				859E2A0E14DD34DB004027DE /* MainWindow.xib */,
+				859E2A1114DD34DB004027DE /* SFLS_ExerciseViewController.h */,
+				859E2A1214DD34DB004027DE /* SFLS_ExerciseViewController.m */,
+				859E2A1414DD34DB004027DE /* SFLS_ExerciseViewController.xib */,
+				85B0FFCB14DD8BF200B1D78B /* examIndex.h */,
+				85B0FFCC14DD8BF200B1D78B /* examIndex.m */,
+				85B0FFCD14DD8BF200B1D78B /* examIndex.xib */,
+				85FAFE0014E02019007FF75E /* questionPage.h */,
+				85FAFE0114E02019007FF75E /* questionPage.m */,
+				85FAFE0214E02019007FF75E /* questionPage.xib */,
+				85FAFE0514E0B6A6007FF75E /* tempCLass.h */,
+				85FAFE0614E0B6A6007FF75E /* tempCLass.m */,
+				85FAFE0714E0B6A6007FF75E /* tempCLass.xib */,
+				85CB638714DD975500BEF736 /* selQuestion.h */,
+				85CB638814DD975500BEF736 /* selQuestion.m */,
+				85CCDB80152841A80014A5DF /* errorQuestion.h */,
+				85CCDB81152841A80014A5DF /* errorQuestion.m */,
+				85CCDB82152841A80014A5DF /* errorQuestion.xib */,
+				859E2A0314DD34DB004027DE /* Supporting Files */,
+			);
+			path = SFLS_Exercise;
+			sourceTree = "<group>";
+		};
+		859E2A0314DD34DB004027DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85B9505215404FED0030B8BD /* wrongbutton.png */,
+				85B9504E15404F1B0030B8BD /* inputbox.png */,
+				85B9504F15404F1B0030B8BD /* submitbutton.png */,
+				85B9504A153D2B8E0030B8BD /* loginbak@1x.png */,
+				85B9504B153D2B8E0030B8BD /* loginbak@2x.png */,
+				85B95044153D18430030B8BD /* questionListBAK@1x.png */,
+				85B9503E153D17910030B8BD /* launchimage@1x.png */,
+				85B9503F153D17910030B8BD /* launchimage@2x.png */,
+				85B95038153D173C0030B8BD /* logo@57.png */,
+				85B95039153D173C0030B8BD /* logo@114.png */,
+				85B9502F153D16E70030B8BD /* launchimage.png */,
+				85B95030153D16E70030B8BD /* logo@72.png */,
+				85B95031153D16E70030B8BD /* logo@144.png */,
+				85B95032153D16E70030B8BD /* logo@512.png */,
+				859E2A0414DD34DB004027DE /* SFLS_Exercise-Info.plist */,
+				859E2A0514DD34DB004027DE /* InfoPlist.strings */,
+				859E2A0814DD34DB004027DE /* main.m */,
+				859E2A0A14DD34DB004027DE /* SFLS_Exercise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		859E2A2414DD34DB004027DE /* SFLS_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				859E2A2A14DD34DB004027DE /* SFLS_ExerciseTests.h */,
+				859E2A2C14DD34DB004027DE /* SFLS_ExerciseTests.m */,
+				859E2A2514DD34DB004027DE /* Supporting Files */,
+			);
+			path = SFLS_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		859E2A2514DD34DB004027DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				859E2A2614DD34DB004027DE /* SFLS_ExerciseTests-Info.plist */,
+				859E2A2714DD34DB004027DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		859E29F714DD34DB004027DE /* SFLS_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859E2A3014DD34DB004027DE /* Build configuration list for PBXNativeTarget "SFLS_Exercise" */;
+			buildPhases = (
+				859E29F414DD34DB004027DE /* Sources */,
+				859E29F514DD34DB004027DE /* Frameworks */,
+				859E29F614DD34DB004027DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFLS_Exercise;
+			productName = SFLS_Exercise;
+			productReference = 859E29F814DD34DB004027DE /* SFLS_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		859E2A1B14DD34DB004027DE /* SFLS_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859E2A3314DD34DB004027DE /* Build configuration list for PBXNativeTarget "SFLS_ExerciseTests" */;
+			buildPhases = (
+				859E2A1714DD34DB004027DE /* Sources */,
+				859E2A1814DD34DB004027DE /* Frameworks */,
+				859E2A1914DD34DB004027DE /* Resources */,
+				859E2A1A14DD34DB004027DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				859E2A2314DD34DB004027DE /* PBXTargetDependency */,
+			);
+			name = SFLS_ExerciseTests;
+			productName = SFLS_ExerciseTests;
+			productReference = 859E2A1C14DD34DB004027DE /* SFLS_ExerciseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		859E29EF14DD34DA004027DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = sfls;
+			};
+			buildConfigurationList = 859E29F214DD34DA004027DE /* Build configuration list for PBXProject "SFLS_Exercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 859E29ED14DD34DA004027DE;
+			productRefGroup = 859E29F914DD34DB004027DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				859E29F714DD34DB004027DE /* SFLS_Exercise */,
+				859E2A1B14DD34DB004027DE /* SFLS_ExerciseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		859E29F614DD34DB004027DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859E2A0714DD34DB004027DE /* InfoPlist.strings in Resources */,
+				859E2A1014DD34DB004027DE /* MainWindow.xib in Resources */,
+				859E2A1614DD34DB004027DE /* SFLS_ExerciseViewController.xib in Resources */,
+				85B0FFCF14DD8BF200B1D78B /* examIndex.xib in Resources */,
+				85FAFE0414E02019007FF75E /* questionPage.xib in Resources */,
+				85FAFE0914E0B6A6007FF75E /* tempCLass.xib in Resources */,
+				8580AE8615283EF900825307 /* viewErrorList.xib in Resources */,
+				85CCDB84152841A80014A5DF /* errorQuestion.xib in Resources */,
+				85B95033153D16E70030B8BD /* launchimage.png in Resources */,
+				85B95034153D16E70030B8BD /* logo@72.png in Resources */,
+				85B95035153D16E70030B8BD /* logo@144.png in Resources */,
+				85B95036153D16E70030B8BD /* logo@512.png in Resources */,
+				85B9503A153D173C0030B8BD /* logo@57.png in Resources */,
+				85B9503B153D173C0030B8BD /* logo@114.png in Resources */,
+				85B9503D153D174A0030B8BD /* Default.png in Resources */,
+				85B95040153D17910030B8BD /* launchimage@1x.png in Resources */,
+				85B95041153D17910030B8BD /* launchimage@2x.png in Resources */,
+				85B95043153D179D0030B8BD /* Default@2x.png in Resources */,
+				85B95045153D18430030B8BD /* questionListBAK@1x.png in Resources */,
+				85B9504C153D2B8E0030B8BD /* loginbak@1x.png in Resources */,
+				85B9504D153D2B8E0030B8BD /* loginbak@2x.png in Resources */,
+				85B9505015404F1B0030B8BD /* inputbox.png in Resources */,
+				85B9505115404F1B0030B8BD /* submitbutton.png in Resources */,
+				85B9505315404FED0030B8BD /* wrongbutton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859E2A1914DD34DB004027DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859E2A2914DD34DB004027DE /* InfoPlist.strings in Resources */,
+				859E2A2B14DD34DB004027DE /* SFLS_ExerciseTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		859E2A1A14DD34DB004027DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		859E29F414DD34DB004027DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859E2A0914DD34DB004027DE /* main.m in Sources */,
+				859E2A0D14DD34DB004027DE /* SFLS_ExerciseAppDelegate.m in Sources */,
+				859E2A1314DD34DB004027DE /* SFLS_ExerciseViewController.m in Sources */,
+				859E2A4014DD3525004027DE /* XMLDocument.m in Sources */,
+				859E2A4114DD3525004027DE /* XMLelement.m in Sources */,
+				85B0FFCE14DD8BF200B1D78B /* examIndex.m in Sources */,
+				85CB638914DD975500BEF736 /* selQuestion.m in Sources */,
+				85FAFE0314E02019007FF75E /* questionPage.m in Sources */,
+				85FAFE0814E0B6A6007FF75E /* tempCLass.m in Sources */,
+				8580AE8515283EF900825307 /* viewErrorList.m in Sources */,
+				85CCDB83152841A80014A5DF /* errorQuestion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859E2A1714DD34DB004027DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859E2A2D14DD34DB004027DE /* SFLS_ExerciseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		859E2A2314DD34DB004027DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 859E29F714DD34DB004027DE /* SFLS_Exercise */;
+			targetProxy = 859E2A2214DD34DB004027DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		859E2A0514DD34DB004027DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859E2A0614DD34DB004027DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		859E2A0E14DD34DB004027DE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859E2A0F14DD34DB004027DE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		859E2A1414DD34DB004027DE /* SFLS_ExerciseViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859E2A1514DD34DB004027DE /* en */,
+			);
+			name = SFLS_ExerciseViewController.xib;
+			sourceTree = "<group>";
+		};
+		859E2A2714DD34DB004027DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859E2A2814DD34DB004027DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		859E2A2E14DD34DB004027DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haobin Zhu (54N4Q27CHB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Haobin Zhu (54N4Q27CHB)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "62E4411F-0063-4430-B9E8-3E7287E1140E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "62E4411F-0063-4430-B9E8-3E7287E1140E";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		859E2A2F14DD34DB004027DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haobin Zhu (54N4Q27CHB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Haobin Zhu (54N4Q27CHB)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "62E4411F-0063-4430-B9E8-3E7287E1140E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "62E4411F-0063-4430-B9E8-3E7287E1140E";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		859E2A3114DD34DB004027DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFLS_Exercise/SFLS_Exercise-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SFLS_Exercise/SFLS_Exercise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		859E2A3214DD34DB004027DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFLS_Exercise/SFLS_Exercise-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SFLS_Exercise/SFLS_Exercise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		859E2A3414DD34DB004027DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SFLS_Exercise.app/SFLS_Exercise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFLS_Exercise/SFLS_Exercise-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SFLS_ExerciseTests/SFLS_ExerciseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		859E2A3514DD34DB004027DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SFLS_Exercise.app/SFLS_Exercise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFLS_Exercise/SFLS_Exercise-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SFLS_ExerciseTests/SFLS_ExerciseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		859E29F214DD34DA004027DE /* Build configuration list for PBXProject "SFLS_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859E2A2E14DD34DB004027DE /* Debug */,
+				859E2A2F14DD34DB004027DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859E2A3014DD34DB004027DE /* Build configuration list for PBXNativeTarget "SFLS_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859E2A3114DD34DB004027DE /* Debug */,
+				859E2A3214DD34DB004027DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859E2A3314DD34DB004027DE /* Build configuration list for PBXNativeTarget "SFLS_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859E2A3414DD34DB004027DE /* Debug */,
+				859E2A3514DD34DB004027DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 859E29EF14DD34DA004027DE /* Project object */;
+}
